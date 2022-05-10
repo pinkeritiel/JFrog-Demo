@@ -1,6 +1,6 @@
 node('master') {
      stage ('BlazeMeter JFrog test'){
-     blazeMeterTest credentialsId:BlazeMeter Credentials,
+     blazeMeterTest credentialsId:'BlazeMeter Credentials',
      serverUrl:'https://a.blazemeter.com',
      testId:'10956104',
      notes:'',
